@@ -1,7 +1,7 @@
 # Install Brackets
-class brackets ($version='29') {
+class brackets ($version='33') {
   package { "brackets-sprint-${version}-OSX":
     provider => 'appdmg',
-    source   => "http://download.brackets.io/file.cfm?platform=OSX&build=${version}&_=.dmg",
+    source   => "http://download.brackets.io/file.cfm?platform=OSX&build=${version}",
   }
 }
